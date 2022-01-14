@@ -1,0 +1,16 @@
+#searchHome {
+  display: block;
+  padding-top: 0.5%;
+  padding-bottom: 0.5%;
+  padding-left: 1%;
+  padding-right: 10%;
+  font-size: x-large;
+  border-radius: 5px;
+}
+#searchBarHome {
+  align-content: center;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 45%;
+}
