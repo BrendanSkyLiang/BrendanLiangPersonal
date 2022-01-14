@@ -35,14 +35,18 @@ body {
 }
 
 #linkIcons {
-  height: 5vh;
+  height: 8vh;
 }
 
-#searchBar {
+#query {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: large;
+  font-size: x-large;
   max-height: 5vh;
-  max-width: 20vw;
-  min-width: 20vw;
+  max-width: 25vw;
+  min-width: 25vw;
   border-radius: 5px;
+  background-color: rgb(40, 40, 40);
+  flex-direction: row;
+  padding: 6px 10px;
+  color: aliceblue;
 }
