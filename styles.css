@@ -26,7 +26,12 @@ body {
 #bottom {
   display: flex;
   float: bottom;
-  background-color: green;
+  background-color: black;
+  justify-content: center;
   width: 89vw;
   height: 50vh;
+}
+
+#linkIcons {
+  height: 5vh;
 }
