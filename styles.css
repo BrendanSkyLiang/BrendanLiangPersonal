@@ -12,16 +12,18 @@ body {
 #top {
   display: flex;
   float: top;
-  background-color: blue;
+  background-color: black;
   width: 89vw;
-  height: 30vh;
+  height: 40vh;
 }
 #center {
   display: flex;
   float: center;
-  background-color: brown;
+  float: bottom;
+  justify-content: center;
+  background-color: black;
   width: 89vw;
-  height: 20vh;
+  height: 10vh;
 }
 #bottom {
   display: flex;
@@ -34,4 +36,13 @@ body {
 
 #linkIcons {
   height: 5vh;
+}
+
+#searchBar {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: large;
+  max-height: 5vh;
+  max-width: 20vw;
+  min-width: 20vw;
+  border-radius: 5px;
 }
