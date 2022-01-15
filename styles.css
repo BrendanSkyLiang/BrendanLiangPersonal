@@ -1,7 +1,58 @@
-body {
-  background-color: black;
+.item1 {
+  grid-area: leftMenu;
+}
+.item2 {
+  grid-area: flexi;
+}
+.item3 {
+  grid-area: search;
+  justify-content: center;
+}
+.item4 {
+  grid-area: frequent;
+}
+.item5 {
+  grid-area: rightMenu;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    "leftMenu flexi flexi flexi flexi flexi flexi flexi flexi rightMenu"
+    "leftMenu flexi flexi flexi flexi flexi flexi flexi flexi rightMenu"
+    "leftMenu flexi flexi flexi flexi flexi flexi flexi flexi rightMenu"
+    "leftMenu flexi flexi flexi flexi flexi flexi flexi flexi rightMenu"
+    "leftMenu search search search search search search search search rightMenu"
+    "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu"
+    "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu"
+    "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu"
+    "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu"
+    "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu";
+  background-color: azure;
+  grid-template-columns: 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw 10vw;
+  grid-template-rows: 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh 10vh;
+  background-color: aliceblue;
+}
+
+.grid-container > div {
+  background-color: black;
+}
+.item1 {
+  color: aliceblue;
+}
+.item2 {
+  color: whitesmoke;
+}
+.item3 {
+  text-align: center;
+}
+.item4 {
+  text-align: center;
+}
+.item5 {
+  color: wheat;
+  background-color: aquamarine;
+}
 #left {
   display: flex;
   float: left;
@@ -12,7 +63,7 @@ body {
 #top {
   display: flex;
   float: top;
-  background-color: black;
+  background-color: blueviolet;
   width: 89vw;
   height: 40vh;
 }
@@ -21,23 +72,21 @@ body {
   float: center;
   float: bottom;
   justify-content: center;
-  background-color: black;
+  background-color: red;
   width: 89vw;
   height: 10vh;
 }
 #bottom {
   display: flex;
   float: bottom;
-  background-color: black;
+  background-color: green;
   justify-content: center;
   width: 89vw;
   height: 50vh;
 }
-
 #linkIcons {
   height: 8vh;
 }
-
 #query {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: x-large;
@@ -49,4 +98,7 @@ body {
   flex-direction: row;
   padding: 6px 10px;
   color: aliceblue;
+  border-color: black;
+  border-bottom: 2px black;
+  border-right: 2px black;
 }
