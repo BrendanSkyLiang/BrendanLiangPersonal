@@ -74,3 +74,12 @@ body {
   border-bottom: 2px black;
   border-right: 2px black;
 }
+#tempIcon {
+  max-height: 5vh;
+  text-align: center;
+  padding-bottom: 1vh;
+}
+#temperature {
+  text-align: center;
+  color: aliceblue;
+}
