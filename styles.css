@@ -41,7 +41,8 @@ body {
   background-color: black;
 }
 .item1 {
-  color: aliceblue;
+  text-align: center;
+  vertical-align: middle;
 }
 .item2 {
   color: whitesmoke;
@@ -82,4 +83,10 @@ body {
 #temperature {
   text-align: center;
   color: aliceblue;
+}
+
+#leftIcons {
+  height: 8vh;
+  float: center;
+  vertical-align: middle;
 }
