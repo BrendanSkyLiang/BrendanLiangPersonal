@@ -32,10 +32,11 @@ window.addEventListener('load', () => {
           // Interacting with DOM to show data
           tempC.textContent = `${tempC.toFixed(2)} °C`;
           document.getElementById("temperature").innerHTML = tempC.toFixed(1) + '°C'
-          var img = document.createElement('img')
-          img.src = iconURL;
-          document.getElementById("tempIcon").appendChild(img);
-          // loc.textContent = `${place}`;
+          // var img = document.createElement('img')
+          // img.src = iconURL;
+          // document.getElementById("tempIcon").appendChild(img);
+          place.textContent = `${place}`;
+          document.getElementById("place").innerHTML = place
           // desc.textContent = `${description}`;
 
           // sunriseDOM.textContent = `${sunriseGMT.toLocaleDateString()}, ${sunriseGMT.toLocaleTimeString()}`;

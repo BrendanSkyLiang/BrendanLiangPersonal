@@ -83,6 +83,13 @@ body {
 #temperature {
   text-align: center;
   color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#place {
+  text-align: center;
+  color: aliceblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #leftIcons {
