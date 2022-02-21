@@ -21,11 +21,11 @@ body {
 .grid-container {
   display: grid;
   grid-template-areas:
-    "leftMenu flexi flexi flexi flexi flexi flexi flexi flexi rightMenu"
-    "leftMenu flexi flexi flexi flexi flexi flexi flexi flexi rightMenu"
-    "leftMenu flexi flexi flexi flexi flexi flexi flexi flexi rightMenu"
-    "leftMenu flexi flexi flexi flexi flexi flexi flexi flexi rightMenu"
+    "flexi flexi flexi flexi flexi flexi flexi flexi flexi flexi"
+    "flexi flexi flexi flexi flexi flexi flexi flexi flexi flexi"
     "leftMenu search search search search search search search search rightMenu"
+    "leftMenu search search search search search search search search rightMenu"
+    "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu"
     "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu"
     "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu"
     "leftMenu frequent frequent frequent frequent frequent frequent frequent frequent rightMenu"
@@ -45,6 +45,7 @@ body {
   vertical-align: middle;
 }
 .item2 {
+  background-color: gray;
   color: whitesmoke;
 }
 .item3 {
