@@ -1,0 +1,28 @@
+#ME {
+  float: right;
+  height: 40%;
+  border-radius: 100%;
+}
+#portfolioTable {
+  border: 1px black;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+#docpreview {
+  border: solid 2px whitesmoke;
+  float: center;
+  max-height: 30%;
+}
+#docpreview:hover {
+  border: solid 2px black;
+}
+td {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+table,
+th,
+td {
+  border: 1px solid white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
