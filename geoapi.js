@@ -20,8 +20,6 @@ window.addEventListener('load', () => {
           const tempC = data.main.temp;
           const place = data.name;
           const icon = data.weather[0].icon;
-          const sunrise = data.sys.sunrise;
-          const sunset = data.sys.sunset;
 
           const iconURL = 'http://openweathermap.org/img/wn/' + icon + '@2x.png'
 
