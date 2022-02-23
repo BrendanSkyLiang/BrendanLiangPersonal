@@ -1,6 +1,7 @@
 window.addEventListener('load', () => {
   let long;
   let lat;
+  console.log('initiated')
   // Accesing Geolocation of User
   if (navigator.geolocation) {
     navigator.geolocation.getCurrentPosition((position) => {
@@ -44,6 +45,7 @@ window.addEventListener('load', () => {
         });
     });
   } else {
+    console.log('failed')
     document.getElementById("temperature").innerHTML = 'temperature error'
     document.getElementById("place").innerHTML = 'loc error'
   }
